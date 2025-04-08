@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CEEGAMES</title>
+    <link rel="stylesheet" href="game.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="C_20250330_020734_0000.png" alt="CEEGAMES Logo" class="logo">
+            <h1>CEEGAMES</h1>
+            <h3>Access to the game world</h3>
+        </div>
+    </header>
+    <h2>PSP</h2>
+    <section class="game-list">
+
+    </section>
+
+
+    <!-- Sidebar Menu -->
+    <div id="sidebar" class="sidebar">
+        <button class="close-btn" onclick="closeMenu()">×</button>
+        <ul>
+            <li><a href="index.html"> home</a></li>
+            <li><a href="game.html"> games</a></li>
+            <li><a href="#">contact </a></li>
+            <li><a href="#"> donate</a></li>
+            <li><a href="#"> aboout ceegames</a></li>
+        </ul>
+    </div>
+    <div id="overlay" class="overlay" onclick="closeMenu()"></div>
+    <button class="menu-btn" onclick="openMenu()">☰</button>
+
+
+
+
+    <div id="search-box">
+        <svg id="search-toggle" xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="#fff"
+            viewBox="0 0 16 16">
+            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 
+      1.398h-.001l3.85 3.85a1 1 0 0 0 
+      1.415-1.415l-3.85-3.85zm-5.242.656a5 
+      5 0 1 1 0-10 5 5 0 0 1 0 10z" />
+        </svg>
+        <input type="text" id="search-input" placeholder="Search..." />
+    </div>
+
+    <script src="cee.js"></script>
+
+
+    <div id="gamesContainer">
+        <!-- Games will be loaded dynamically -->
+
+    </div>
+
+
+    <div class="game-section">
+
+        <div class="game-card">
+            <a href="download.html?game=assassins-creed-bloodlines" title="assassins-creed-bloodlines">
+                <img src="game_images/assassins-creed-bloodlines-cover.webp" alt="assassins-creed-bloodlines PSP" />
+            </a>
+            <p>
+            <h3>Assasasins-creed-bloodlines</h3>
+            </p>
+
+        </div>
+
+
+        <div class="game-card">
+            <a href="download.html?game=fifa-13" title="fifa-13">
+                <img src="game_images/fifa-13-cover.webp" alt="fifa-13-psp PSP" />
+            </a>
+            <p>
+            <h3>fifa-13</h3>
+            </p>
+
+        </div>
+
+
+
+
+        <div class="game-card">
+            <a href="download.html?game=need-for-speed-most-wanted-5-1-0" title="need-for-speed-most-wanted-5-1-0-psp">
+                <img src="game_images/need-for-speed-most-wanted-5-1-0-cover.webp"
+                    alt="need-for-speed-most-wanted-5-1-0-psp" />
+            </a>
+            <p>
+            <h3>need-for-speed-most-wanted-5</h3>
+            </p>
+
+        </div>
+
+
+
+        <div class="game-card">
+            <a href="download.html?game=ben-10-alien-force-vilgax-attacks" title="ben-10-alien-force-vilgax-attacks">
+                <img src="game_images/ben-10-alien-force-vilgax-attacks-cover.webp"
+                    alt="ben-10-alien-force-vilgax-attacks" />
+            </a>
+            <p>
+            <h3>ben-10-alien-force-vilgax-attacks</h3>
+            </p>
+
+        </div>
+
+
+
+
+
+        <div class="game-card">
+            <a href="download.html?game=ace-comat-x-skies-of-deception-psp" title="ace-comat-x-skies-of-deception-psp">
+                <img src="game_images/ace-comat-x-skies-of-deception-psp-cover.webp"
+                    alt="ace-comat-x-skies-of-deception" />
+            </a>
+            <p>
+            <h3>ace-comat-x-skies-of-deception</h3>
+            </p>
+
+        </div>
+
+
+
+        <div class="game-card">
+            <a href="download.html?game=armored-core-3-psp" title="armored-core-3-psp">
+                <img src="game_images/armored-core-3-psp-cover.webp" alt="armored-core-3-psp" />
+            </a>
+            <p>
+            <h3>armored-core-3</h3>
+            </p>
+
+        </div>
+
+
+
+
+        <div class="game-card">
+            <a href="download.html?game=asphalt-urban-gt-2-psp" title="asphalt-urban-gt-2-psp">
+                <img src="game_images/asphalt-urban-gt-2-psp-cover.webp" alt="asphalt-urban-gt-2-psp">
+            </a>
+            <p>
+            <h3>asphalt-urban-gt-2</h3>
+            </p>
+
+        </div>
+
+
+
+
+        <div class="game-card">
+            <a href="download.html?game=astro-boy-the-video-game-psp" title="astro-boy-the-video-game-psp">
+                <img src="game_images/astro-boy-the-video-game-psp-cover.webp" alt="astro-boy-the-video-game">
+            </a>
+            <p>
+            <h3>astro-boy-the-video-game</h3>
+            </p>
+
+        </div>
+
+
+
+
+
+        <div class="game-card">
+            <a href="download.html?game=avatar-the-last-airbender-psp" title="avatar-the-last-airbender-psp">
+                <img src="game_images/avatar-the-last-airbender-psp-cover.webp" alt="avatar-the-last-airbender">
+            </a>
+            <p>
+            <h3>avatar-the-last-airbender</h3>
+            </p>
+
+        </div>
+
+
+
+
+        <div class="game-card">
+            <a href="download.html?game=bakugan-battle-brawlers-defenders-of-the-core-psp"
+                title="bakugan-battle-brawlers-defenders-of-the-core-psp">
+                <img src="game_images/bakugan-battle-brawlers-defenders-of-the-core-psp-cover.webp"
+                    alt="bakugan-battle-brawlers-defenders-of-the-core">
+            </a>
+            <p>
+            <h3>bakugan-battle-brawlers-defenders-of-the-core</h3>
+            </p>
+
+        </div>
+
+
+        <div class="game-card">
+            <a href="download.html?game=ben-10-protector-of-earth" title="ben-10-protector-of-earth">
+                <img src="game_images/ben-10-protector-of-earth-cover.webp"
+                    alt="ben-10-protector-of-earthben-10-protector-of-earth">
+            </a>
+            <p>
+            <h3>ben-10-protector-of-earth</h3>
+            </p>
+
+        </div>
+
+
+        <div class="game-card">
+            <a href="download.html?game=ben-10-ultimate-alien-cosmic-destruction"
+                title="ben-10-ultimate-alien-cosmic-destruction">
+                <img src="game_images/ben-10-ultimate-alien-cosmic-destruction-cover.webp"
+                    alt="ben-10-ultimate-alien-cosmic-destruction">
+            </a>
+            <p>
+            <h3>ben-10-ultimate-alien-cosmic-destruction</h3>
+            </p>
+
+        </div>
+
+
+
+        <div class="game-card">
+            </a>
+            <a href="download.html?game=bleach-heat-the-soul-7-psp" title="bleach-heat-the-soul-7-psp">
+            <img src="game_images/bleach-heat-the-soul-7-psp-cover.webp" alt="bleach-heat-the-soul-7-psp">
+            </a>
+            <p>
+            <h3>bleach-heat-the-soul-7</h3>
+            </p>
+
+        </div>
+
+
+
+
+        <div class="game-card">
+            <a href="download.html?game=bomberman-psp" title="bomberman-psp">
+                <img src="game_images/bomberman-psp-cover-usa.webp" alt="bomberman-psp">
+            </a>
+            <p>
+            <h3>bomberman-psp</h3>
+            </p>
+
+        </div>
+
+
+        <div class="game-card">
+            <a href="download.html?game=brothers-in-arms-d-day-psp" title="brothers-in-arms-d-day-psp">
+                <img src="game_images/brothers-in-arms-d-day-psp-cover.webp" alt="brothers-in-arms-d-day-psp">
+            </a>
+            <p>
+            <h3>brothers-in-arms-d-day-psp</h3>
+            </p>
+
+        </div>
+
+
+        <div class="game-card">
+            <a href="download.html?game=burnout-dominator-psp" title="burnout-dominator-psp">
+                <img src="game_images/burnout-dominator-psp-cover.webp" alt="burnout-dominator-psp">
+            </a>
+            <p>
+            <h3>burnout-dominator-psp</h3>
+            </p>
+
+        </div>
+
+
+
+
+
+        <div class="game-card">
+            <a href="download.html?game=/burnout-legends-psp" title="/burnout-legends-psp">
+                <img src="game_images/burnout-legends-psp-cover.webp" alt="/burnout-legends-psp">
+            </a>
+            <p>
+            <h3>burnout-legends-psp</h3>
+            </p>
+
+        </div>
+
+
+
+
+        <div class="game-card">
+            <a href="download.html?game=call-of-duty-roads-to-victory-psp" title="call-of-duty-roads-to-victory-psp">
+                <img src="game_images/call-of-duty-roads-to-victory-psp-cover.webp"
+                    alt="call-of-duty-roads-to-victory-psp">
+            </a>
+            <p>
+            <h3>call-of-duty-roads-to-victory-psp</h3>
+            </p>
+
+        </div>
+
+
+
+
+        <div class="game-card">
+            <a href="download.html?game=colin-mcrae-rally-2005-plus-psp" title="colin-mcrae-rally-2005-plus-psp">
+                <img src="game_images/colin-mcrae-rally-2005-plus-psp-cover.webp" alt="colin-mcrae-rally-2005-plus-psp">
+            </a>
+            <p>
+            <h3>colin-mcrae-rally-2005-plus-psp</h3>
+            </p>
+
+        </div>
+
+
+
+        <div class="game-card">
+            <a href="download.html?game=crash-of-the-titans-psp" title="crash-of-the-titans-psp">
+                <img src="game_images/crash-of-the-titans-psp-cover.webp" alt="">
+            </a>
+            <p>
+            <h3>crash-of-the-titans-psp</h3>
+            </p>
+
+        </div>
+
+
+
+        <div class="game-card">
+            <a href="download.html?game=crash-tag-team-racing-psp" title="crash-tag-team-racing-psp">
+                <img src="game_images/crash-tag-team-racing-psp-cover.webp" alt="crash-tag-team-racing-psp">
+            </a>
+            <p>
+            <h3>crash-tag-team-racing-psp</h3>
+            </p>
+
+        </div>
+
+
+
+        <div class="game-card">
+            <a href="download.html?game=crazy-taxi-fare-wars-psp-cover" title="crazy-taxi-fare-wars-psp-cover">
+                <img src="game_images/crazy-taxi-fare-wars-psp-cover.webp" alt="crazy-taxi-fare-wars-psp-cover">
+            </a>
+            <p>
+            <h3>crazy-taxi-fare-wars-psp</h3>
+            </p>
+
+        </div>
+
+
+
+        <div class="game-card">
+            <a href="download.html?game=game_images/dantes-inferno-cover.webp"
+                title="game_images/dantes-inferno-cover.webp">
+                <img src="game_images/dantes-inferno-cover.webp" alt="game_images/dantes-inferno-cover.webp">
+            </a>
+            <p>
+            <h3>dantes-inferno</h3>
+            </p>
+
+        </div>
+
+
+
+        <div class="game-card">
+            <a href="download.html?game=" title="daxter-psp">
+                <img src="game_images/daxter-psp-cover.webp" alt="daxter-psp">
+            </a>
+            <p>
+            <h3>daxter-psp</h3>
+            </p>
+
+        </div>
+
+
+
+        <div class="game-card">
+            <a href="download.html?game=dead-or-alive-paradise-psp" title="dead-or-alive-paradise-psp">
+                <img src="game_images/dead-or-alive-paradise-psp-cover.webp" alt="dead-or-alive-paradise-psp">
+            </a>
+            <p>
+            <h3>dead-or-alive-paradise-psp</h3>
+            </p>
+
+        </div>
+
+
+
+        <div class="game-card">
+            <a href="download.html?game=def-jam-fight-for-ny-the-takeover-psp"
+                title="def-jam-fight-for-ny-the-takeover-psp">
+                <img src="game_images/def-jam-fight-for-ny-the-takeover-psp-cover.webp"
+                    alt="def-jam-fight-for-ny-the-takeover-psp">
+            </a>
+            <p>
+            <h3>def-jam-fight-for-ny-the-takeover-psp</h3>
+            </p>
+
+        </div>
+
+
+
+        <div class="game-card">
+            <a href="download.html?game=digimon-adventure-psp" title="digimon-adventure-psp">
+                <img src="game_images/digimon-adventure-psp-cover.webp" alt="digimon-adventure-psp">
+            </a>
+            <p>
+            <h3>digimon-adventure-psp</h3>
+            </p>
+
+        </div>
+
+
+
+        <div class="game-card">
+            <a href="download.html?game=dragon-ball-evolution-psp" title="dragon-ball-evolution-psp">
+                <img src="game_images/dragon-ball-evolution-psp-cover.webp" alt="dragon-ball-evolution-psp">
+            </a>
+            <p>
+            <h3>dragon-ball-evolution-psp</h3>
+            </p>
+
+        </div>
+
+
+
+        <div class="game-card">
+            <a href="download.html?game=" title="dragon-ball-z-shin-budokai-2">
+                <img src="game_images/dragon-ball-z-shin-budokai-2-cover.webp" alt="dragon-ball-z-shin-budokai-2">
+            </a>
+            <p>
+            <h3>/dragon-ball-z-shin-budokai-2</h3>
+            </p>
+
+        </div>
+
+
+
+        <div class="game-card">
+            <a href="download.html?game=" title="dragon-ball-z-shin-budokai-another-road">
+                <img src="game_images/dragon-ball-z-shin-budokai-another-road-cover.webp"
+                    alt="dragon-ball-z-shin-budokai-another-road">
+            </a>
+            <p>
+            <h3>dragon-ball-z-shin-budokai-another-road</h3>
+            </p>
+
+        </div>
+
+
+
+        <div class="game-card">
+            <a href="download.html?game=" title="dragon-ball-z-shin-budokai-psp">
+                <img src="game_images/dragon-ball-z-shin-budokai-psp-cover.webp" alt="dragon-ball-z-shin-budokai-psp">
+            </a>
+            <p>
+            <h3>dragon-ball-z-shin-budokai-psp</h3>
+            </p>
+
+        </div>
+
+
+
+        <div class="game-card">
+            <a href="download.html?game=dragon-ball-z-tenkaichi-tag-team" title="dragon-ball-z-tenkaichi-tag-team">
+                <img src="game_images/dragon-ball-z-tenkaichi-tag-team-cover.webp"
+                    alt="dragon-ball-z-tenkaichi-tag-team">
+            </a>
+            <p>
+            <h3>dragon-ball-z-tenkaichi-tag-team</h3>
+            </p>
+
+        </div>
+
+
+
+        <div class="game-card">
+            <a href="download.html?game=driver-76-psp" title="driver-76-psp">
+                <img src="game_images/driver-76-psp-cover.webp" alt="driver-76-psp">
+            </a>
+            <p>
+            <h3>driver-76-psp</h3>
+            </p>
+
+        </div>
+
+
+
+        <div class="game-card">
+            <a href="download.html?game=dynasty-warriors-psp" title="dynasty-warriors-psp">
+                <img src="game_images/dynasty-warriors-psp-cover.webp" alt="dynasty-warriors-psp">
+            </a>
+            <p>
+            <h3>dynasty-warriors-psp</h3>
+            </p>
+
+        </div>
+
+
+
+        <div class="game-card">
+            <a href="download.html?game=fifa-06-soccer-psp" title="fifa-06-soccer-psp">
+                <img src="game_images/fifa-06-soccer-psp-cover.webp" alt="game_images/fifa-06-soccer-psp-cover.webp">
+            </a>
+            <p>
+            <h3>fifa-06-soccer-psp-cover</h3>
+            </p>
+
+        </div>
+
+
+
+        <div class="game-card">
+            <a href="download.html?game=fifa-13" title="fifa-13">
+                <img src="game_images/fifa-13-cover.webp" alt="fifa-13">
+            </a>
+            <p>
+            <h3>fifa-13</h3>
+            </p>
+
+        </div>
+
+
+
+        <div class="game-card">
+            <a href="download.html?game=fifa-14-world-class-soccer" title="fifa-14-world-class-soccer">
+                <img src="game_images/fifa-14-world-class-soccer-cover.webp" alt="fifa-14-world-class-soccer">
+            </a>
+            <p>
+            <h3>fifa-14-world-class-soccer</h3>
+            </p>
+
+        </div>
+
+
+
+
+        <div class="game-card">
+            <a href="download.html?game=fifa-street-2" title="fifa-street-2">
+                <img src="game_images/fifa-street-2-cover.webp" alt="fifa-street-2">
+            </a>
+            <p>
+            <h3>fifa-street-2</h3>
+            </p>
+
+        </div>
+
+
+
+        <div class="game-card">
+            <a href="download.html?game=fight-night-round-3-psp" title="fight-night-round-3-psp">
+                <img src="game_images/fight-night-round-3-psp-cover.webp" alt="">
+            </a>
+            <p>
+            <h3>fight-night-round-3-psp</h3>
+            </p>
+
+        </div>
+
+
+
+        <div class="game-card">
+            <a href="download.html?game=g-force-psp" title="g-force-psp">
+                <img src="game_images/g-force-psp-cover.webp" alt="g-force-psp">
+            </a>
+            <p>
+            <h3>g-force-psp</h3>
+            </p>
+
+        </div>
+
+
+
+        <div class="game-card">
+            <a href="download.html?game=ghost-ride" title="ghost-ride">
+                <img src="game_images/ghost-ride-cover.webp" alt="ghost-ride">
+            </a>
+            <p>
+            <h3>ghost-ride</h3>
+            </p>
+
+        </div>
+
+
+
+
+        <div class="game-card">
+            <a href="download.html?game=gladiator-begins-psp" title="gladiator-begins-psp">
+                <img src="game_images/gladiator-begins-psp-cover.webp" alt="gladiator-begins-psp">
+            </a>
+            <p>
+            <h3>gladiator-begins-psp</h3>
+            </p>
+
+        </div>
+
+
+
+        <div class="game-card">
+            <a href="download.html?game=god-of-war-chains-of-olympus-psp" title="god-of-war-chains-of-olympus-psp">
+                <img src="game_images/god-of-war-chains-of-olympus-psp-cover.webp"
+                    alt="god-of-war-chains-of-olympus-psp">
+            </a>
+            <p>
+            <h3></h3>god-of-war-chains-of-olympus-psp</h3>
+            </p>
+
+        </div>
+
+
+
+        <div class="game-card">
+            <a href="download.html?game=god-of-war-ghost-of-sparta-psp" title="god-of-war-ghost-of-sparta-psp">
+                <img src="game_images/god-of-war-ghost-of-sparta-psp-cover.webp" alt="god-of-war-ghost-of-sparta-psp">
+            </a>
+            <p>
+            <h3>god-of-war-ghost-of-sparta-psp</h3>
+            </p>
+
+        </div>
+
+
+
+        <div class="game-card">
+            <a href="download.html?game=godfather-the-mob-wars-psp" title="godfather-the-mob-wars-psp">
+                <img src="game_images/godfather-the-mob-wars-psp-cover.webp" alt="godfather-the-mob-wars-psp">
+            </a>
+            <p>
+            <h3>godfather-the-mob-wars-psp</h3>
+            </p>
+
+        </div>
+
+
+
+        <div class="game-card">
+            <a href="download.html?game=hellboy-the-science-of-evil-psp" title="hellboy-the-science-of-evil-psp">
+                <img src="game_images/hellboy-the-science-of-evil-psp-cover.webp" alt="hellboy-the-science-of-evil-psp">
+            </a>
+            <p>
+            <h3>hellboy-the-science-of-evil-psp</h3>
+            </p>
+
+        </div>
+
+
+
+        <div class="game-card">
+            <a href="download.html?game=gran-turismo" title="gran-turismo">
+                <img src="game_images/gran-turismo-cover.webp" alt="gran-turismo">
+            </a>
+            <p>
+            <h3>gran-turismo</h3>
+            </p>
+
+        </div>
+
+
+
+        <div class="game-card">
+            <a href="download.html?game=grand-theft-auto-chinatown-wars-psp"
+                title="grand-theft-auto-chinatown-wars-psp">
+                <img src="game_images/grand-theft-auto-chinatown-wars-psp-cover.webp"
+                    alt="grand-theft-auto-chinatown-wars-psp">
+            </a>
+            <p>
+            <h3>grand-theft-auto-chinatown-wars-psp</h3>
+            </p>
+
+        </div>
+
+
+
+        <div class="game-card">
+            <a href="download.html?game=grand-theft-auto-liberty-city-stories-psp"
+                title="grand-theft-auto-liberty-city-stories-psp">
+                <img src="game_images/grand-theft-auto-liberty-city-stories-psp-cover.webp"
+                    alt="grand-theft-auto-liberty-city-stories-psp">
+            </a>
+            <p>
+            <h3>grand-theft-auto-liberty-city-stories-psp</h3>
+            </p>
+
+        </div>
+
+
+
+        <div class="game-card">
+            <a href="download.html?game=grand-theft-auto-vice-city-stories-psp"
+                title="grand-theft-auto-vice-city-stories-psp">
+                <img src="game_images/grand-theft-auto-vice-city-stories-psp-cover.webp"
+                    alt="grand-theft-auto-vice-city-stories-psp">
+            </a>
+            <p>
+            <h3>grand-theft-auto-vice-city-stories-psp</h3>
+            </p>
+
+        </div>
+
+
+
+        <div class="game-card">
+            <a href="download.html?game=harry-potter-and-the-goblet-of-fire-psp"
+                title="harry-potter-and-the-goblet-of-fire-psp">
+                <img src="game_images/harry-potter-and-the-goblet-of-fire-psp-cover.webp"
+                    alt="harry-potter-and-the-goblet-of-fire-psp">
+            </a>
+            <p>
+            <h3>harry-potter-and-the-goblet-of-fire-psp</h3>
+            </p>
+
+        </div>
+
+
+
+        <div id="content" class="content">
+            <p>Page 1 Content</p>
+          </div>
+          
+          <div class="pagination" id="pagination">
+            <!-- Pagination will be generated dynamically -->
+          </div>
+          
+          
+
+<script>
+  const totalPages = 5;
+  let currentPage = 1;
+  
+  function loadContent(page) {
+    document.getElementById('content').innerHTML = `<p>Page ${page} Content</p>`;
+  }
+  
+  function generatePagination() {
+    const pagination = document.getElementById('pagination');
+    pagination.innerHTML = '';
+  
+    const prev = document.createElement('a');
+    prev.textContent = '«';
+    prev.className = 'prev';
+    if (currentPage > 1) {
+      prev.onclick = () => goToPage(currentPage - 1);
+    } else {
+      prev.style.opacity = '0.4';
+      prev.style.pointerEvents = 'none';
+    }
+    pagination.appendChild(prev);
+  
+    for (let i = 1; i <= totalPages; i++) {
+      const pageLink = document.createElement('a');
+      pageLink.textContent = i;
+      pageLink.className = 'page';
+      if (i === currentPage) pageLink.classList.add('active');
+      pageLink.onclick = () => goToPage(i);
+      pagination.appendChild(pageLink);
+    }
+  
+    const next = document.createElement('a');
+    next.textContent = '»';
+    next.className = 'next';
+    if (currentPage < totalPages) {
+      next.onclick = () => goToPage(currentPage + 1);
+    } else {
+      next.style.opacity = '0.4';
+      next.style.pointerEvents = 'none';
+    }
+    pagination.appendChild(next);
+  }
+  
+  function goToPage(page) {
+    currentPage = page;
+    loadContent(page);
+    generatePagination();
+  }
+  
+  // Initialize
+  loadContent(currentPage);
+  generatePagination();
+</script>
+    

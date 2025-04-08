@@ -1,0 +1,44 @@
+
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f0ecec;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120vh;
+}
+
+.container {
+  background: linear-gradient(#d39d08,#1f1f1e);;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 80%;
+  max-width: 400px;
+}
+
+#game-image {
+  width: 100%;
+  max-width: 300px;
+  margin: 20px 0;
+  border-radius: 10px;
+}
+
+#download-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background:linear-gradient(270deg,#5e5c5b,#252324); 
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+#download-button:hover {
+  background-color: #0056b3;
+}
